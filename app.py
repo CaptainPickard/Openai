@@ -26,7 +26,7 @@ loop_var = True
 while loop_var == True:
 
     user_input = input('>>>')
-    completion = openai.Completion.create(engine="text-davinci-002", prompt="{user_input}", temperature=0.5, top_p=1)
+    completion = openai.Completion.create(engine="code-davinci-002", prompt=f"{user_input}", temperature=0.5, top_p=1)
 
     if user_input == 'exit':
         loop_var == False
