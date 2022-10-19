@@ -1,0 +1,19 @@
+{
+    "choices": [
+      {
+        "finish_reason": "length",
+        "index": 0,
+        "logprobs": null,
+        "text": "\n\nIt\u2019s"   
+      }
+    ],
+    "created": 1666149539,
+    "id": "cmpl-62ttbQasoGHPkP5wK05LS95gb1cFj",
+    "model": "text-ada-001",
+    "object": "text_completion",
+    "usage": {
+      "completion_tokens": 6,
+      "prompt_tokens": 1,
+      "total_tokens": 7
+    }
+  }
