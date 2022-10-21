@@ -27,9 +27,9 @@ while loop_var == True:
 
     user_input = input('>>>')
     completion = openai.Completion.create(
-        engine="text-curie-001", 
-        prompt=f"{user_input}", 
-        temperature=0.5, 
+        engine="text-davinci-002", 
+        prompt=user_input, 
+        temperature=0, 
         top_p=1, 
         max_tokens=256, 
         frequency_penalty=0, 
