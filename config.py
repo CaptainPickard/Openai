@@ -1,1 +1,1 @@
-openai_api_key = ""
+openai_api_key = "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"
